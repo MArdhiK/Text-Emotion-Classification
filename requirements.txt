@@ -4,5 +4,3 @@ pandas
 numpy
 joblib
 sklearn
-sklearn.feature_extraction.text import TfidfVectorizer
-sklearn.linear_model import LogisticRegression 
