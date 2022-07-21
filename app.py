@@ -34,7 +34,7 @@ def main():
 	#st.subheader("Emotion in Text")
 
 	with st.form(key='emotion_clf_form'):
-		raw_text = st.text_area("Type your text here")
+		raw_text = st.text_area("Type your emotion here")
 		submit_text = st.form_submit_button(label ='Submit')
 
 	if submit_text :
